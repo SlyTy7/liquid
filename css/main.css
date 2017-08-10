@@ -3,6 +3,9 @@
 	padding: 0; 
 }
 
+body {
+	background-color: #ecebec;
+}
 
 /* NAVIGATION */
 nav {
@@ -45,7 +48,7 @@ nav {
 }
 
 .nav-buttons a {
-	color: black;
+	color: #4a4a4a;
 	text-decoration: none;
 	text-transform: uppercase;
 }/* END NAVIGATION */
@@ -53,4 +56,5 @@ nav {
 hr {
 	width: 95%;
 	margin: 0 auto;
+	border: solid #4a4a4a 1px;
 }
