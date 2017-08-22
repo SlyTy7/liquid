@@ -107,6 +107,7 @@ div.main-left, div.main-right {
 	width: 45%;
 	padding: 2.2%;
 	vertical-align: top;
+	margin-bottom: 25px;
 }
 
 
@@ -120,7 +121,7 @@ div.grid{
 div.grid .item{
 	width: 17%;
 	margin: 1.3%;
-	border-radius: 5px;
+	border-radius: 10px;
 	background-color: #ffffff;
 	display: inline-block;
 	overflow: hidden;
@@ -157,3 +158,61 @@ div.goodbye p{
 	font-size: 36px;
 	color: #f27d9e;
 }/*END MAIN*/
+
+
+/* FOOTER */
+footer {
+	background-color: #313131;
+	padding: 40px 10px 30px 10px;
+}
+
+.contact, .social {
+	display: inline-block;
+	width: 49%;
+}
+
+
+/* CONTACT FORM */
+.contact {
+	text-align: left;
+}
+
+.contact form {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+	width: 100%;
+	border: none;
+	margin: 5px auto;
+	background-color: #d8d8d8;
+	border-radius: 3px;
+	outline: none;
+	padding: 5px;
+}
+
+.contact h5{
+	font-family: 'Cookie', cursive;
+	font-size: 36px;
+	color: #f27d9e;
+	width: 90%;
+	margin: 0 auto;
+}/*END CONTACT FORM*/
+
+
+/* SOCIAL BUTTONS */
+.social {
+	text-align: center;
+	vertical-align: top;
+	padding-top: 75px;
+}
+
+.social .fa {
+	color: #f27d9e;
+	margin-left: 5%;
+}
+
+.social .fa:hover {
+	color: #ffffff;
+}/*END FOOTER*/
