@@ -217,6 +217,11 @@ footer {
 	width: 100px;
 }
 
+.contact form input:last-child:hover {
+	cursor: pointer;
+	background-color: #f27d9e;
+}
+
 .contact input, .contact textarea {
 	width: 100%;
 	border: none;
