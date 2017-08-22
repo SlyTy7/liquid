@@ -12,8 +12,13 @@ body {
 
 /* NAVIGATION */
 nav {
-	margin: 45px 25px 10px;
-	height: 40px;
+	padding: 20px 25px 10px;
+    position: fixed;
+    background-color: #ecebec;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 
 
@@ -67,6 +72,7 @@ nav {
 hr {
 	width: 95%;
 	margin: 0 auto;
+	margin-top: 75px;
 	border: solid #292d2f 1px;
 }
 
@@ -107,7 +113,7 @@ main h3{
 	color:  #f27d9e;
 	font-size: 34px;
 	margin-top: 40px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
 div.main-left, div.main-right {
@@ -115,7 +121,6 @@ div.main-left, div.main-right {
 	width: 45%;
 	padding: 2.2%;
 	vertical-align: top;
-	margin-bottom: 25px;
 }
 
 
@@ -123,6 +128,7 @@ div.main-left, div.main-right {
 div.grid{
 	width: 90%;
 	margin: 0 auto;
+	padding-top: 60px;
 	text-align: center;
 }
 
